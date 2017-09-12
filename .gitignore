@@ -6,10 +6,11 @@
 bin/
 build/
 logs/
+gradle/
 
 # 파일 제외
-.classpath
-.project
+# .classpath
+# .project
 # local.properties
 # settings.gradle
 
@@ -27,3 +28,4 @@ logs/
 # !src/test/java/
 # src/test/java/*
 # !src/test/java/java24/
+/gradle
