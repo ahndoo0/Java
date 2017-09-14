@@ -8,8 +8,11 @@ public class jv01_02_Debug {
 
         x++;
         x++;
-
         System.out.println(x);
+        
+        x--;
+        System.out.println(x);
+        
     }
     
 }
