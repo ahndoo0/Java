@@ -7,11 +7,11 @@ public class jv02_16_비교논리결합 {
         int x = 3;
         int y = 4;
         
-        System.out.println( (x == y) && (x != y) );  // false
-
-        System.out.println( (x >  y) || (x <  y)  );  // true
-
-        System.out.println( (x >= y) || (x <= y)  );  // true
+        System.out.println( (x == y) && (x != y)  );             // false
+                                                                 
+        System.out.println( (x >  y) || (x <  y)  );             // true
+                                                                 
+        System.out.println( (x >= y) || (x <= y)  );             // true
 
         System.out.println( (x == y) && (x != y) || (x <  y) );  // true
 
